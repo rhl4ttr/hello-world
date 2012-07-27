@@ -1,0 +1,2580 @@
+2012/07/22 21:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "message".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('message')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/message
+---
+2012/07/22 21:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "message".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('message')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/message
+---
+2012/07/22 21:40:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "moderator/editor".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('moderator/edito...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/moderator/editor
+---
+2012/07/22 21:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/screen.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/print.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/form.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/main.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/print.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/screen.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/form.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/main.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/screen.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/form.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/print.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/main.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/screen.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/main.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/form.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/print.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/print.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/form.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/screen.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/main.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 21:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/main.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://127.0.0.1/admin/moderator/
+---
+2012/07/22 21:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/screen.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://127.0.0.1/admin/moderator/
+---
+2012/07/22 21:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/print.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://127.0.0.1/admin/moderator/
+---
+2012/07/22 21:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('css/form.css')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://127.0.0.1/admin/moderator/
+---
+2012/07/22 22:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "moderator".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('moderator')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/moderator
+---
+2012/07/22 22:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "moderator".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:40:20 [error] [exception.CException] exception 'CException' with message 'ModeratorController cannot find the requested view "index".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:879
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#1 /home/admin/emock/protected/controllers/admin/ModeratorController.php(7): CController->render('index')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/admin/emock/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:44:57 [error] [exception.CException] exception 'CException' with message 'ModeratorController cannot find the requested view "admin/header".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:879
+Stack trace:
+#0 /home/admin/emock/protected/views/admin/content_layout.php(4): CController->renderPartial('admin/header')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require('/home/admin/emo...')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/admin/emo...', Array, true)
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(785): CBaseController->renderFile('/home/admin/emo...', Array, true)
+#4 /home/admin/emock/protected/controllers/admin/ModeratorController.php(10): CController->render('index')
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#10 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /home/admin/emock/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:45:53 [error] [exception.CException] exception 'CException' with message 'ModeratorController cannot find the requested view "admin/header".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:879
+Stack trace:
+#0 /home/admin/emock/protected/views/admin/content_layout.php(4): CController->renderPartial('admin/header')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require('/home/admin/emo...')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/admin/emo...', Array, true)
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(785): CBaseController->renderFile('/home/admin/emo...', Array, true)
+#4 /home/admin/emock/protected/controllers/admin/ModeratorController.php(10): CController->render('index')
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#10 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /home/admin/emock/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:46:14 [error] [php] Undefined variable: title (/home/admin/emock/protected/views/admin/header.php:7)
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(870): ModeratorController->renderFile()
+#1 /home/admin/emock/protected/views/admin/content_layout.php(4): ModeratorController->renderPartial()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(96): ModeratorController->renderInternal()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(785): ModeratorController->renderFile()
+#5 /home/admin/emock/protected/controllers/admin/ModeratorController.php(10): ModeratorController->render()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): ModeratorController->runAction()
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): ModeratorController->runActionWithFilters()
+#10 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): ModeratorController->run()
+#11 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#12 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/admin/emock/index.php(19): CWebApplication->run()
+REQUEST_URI=/
+in /home/admin/emock/protected/views/admin/header.php (7)
+in /home/admin/emock/protected/views/admin/content_layout.php (4)
+in /home/admin/emock/protected/controllers/admin/ModeratorController.php (10)
+2012/07/22 22:48:58 [error] [exception.CException] exception 'CException' with message 'ModeratorController cannot find the requested view "admin/moderator/leftmenu".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:879
+Stack trace:
+#0 /home/admin/emock/protected/views/admin/moderator/full_layout.php(7): CController->renderPartial('admin/moderator...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require('/home/admin/emo...')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/admin/emo...', Array, true)
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(785): CBaseController->renderFile('/home/admin/emo...', Array, true)
+#4 /home/admin/emock/protected/controllers/admin/ModeratorController.php(10): CController->render('index')
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#10 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /home/admin/emock/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:49:13 [error] [exception.CException] exception 'CException' with message 'ModeratorController cannot find the requested view "admin/moderator/leftmenu".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:879
+Stack trace:
+#0 /home/admin/emock/protected/views/admin/moderator/full_layout.php(7): CController->renderPartial('admin/moderator...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require('/home/admin/emo...')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/admin/emo...', Array, true)
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(785): CBaseController->renderFile('/home/admin/emo...', Array, true)
+#4 /home/admin/emock/protected/controllers/admin/ModeratorController.php(10): CController->render('index')
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#10 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#11 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /home/admin/emock/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2012/07/22 22:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:49:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:49:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:50:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:50:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institute/batch/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('institute/batch...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/institute/batch/create
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 22:50:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institute/batches".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('institute/batch...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/institute/batches
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 22:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institute/batch/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('institute/batch...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/institute/batch/create
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 22:51:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:51:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "batch/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('batch/create')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/batch/create
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 22:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:54:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:58:23 [error] [php] Undefined variable: title (/home/admin/emock/protected/views/admin/content_layout.php:9)
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(785): BatchController->renderFile()
+#1 /home/admin/emock/protected/controllers/admin/BatchController.php(9): BatchController->render()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/admin/emock/index.php(19): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/views/admin/content_layout.php (9)
+in /home/admin/emock/protected/controllers/admin/BatchController.php (9)
+in /home/admin/emock/index.php (19)
+2012/07/22 22:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:58:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 22:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+---
+2012/07/22 22:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 23:07:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 23:07:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "batches/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('batches/list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/batches/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "batches/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('batches/list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/batches/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 23:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institute/batch/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('institute/batch...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/institute/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/22 23:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/22 23:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "batches/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('batches/list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/batches/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "batches/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('batches/list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/batches/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/22 23:13:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/23 23:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/23 23:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:31:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:33:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:33:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:34:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/23 23:34:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/student/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/student/c...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/student/create
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/student/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/student/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/student/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/23 23:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/25 23:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/25 23:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/25 23:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/25 23:06:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institute/batch/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('institute/batch...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/institute/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/25 23:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/25 23:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institute/batch/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('institute/batch...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/institute/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/25 23:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/25 23:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/25 23:40:26 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "isPostRequest".' in /home/admin/emock/yii-1.1.10.r3566/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(14): CComponent->__call('isPostRequest', Array)
+#1 /home/admin/emock/protected/controllers/admin/BatchController.php(14): CHttpRequest->isPostRequest()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/admin/emock/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/25 23:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/25 23:41:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/25 23:42:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institute/batch/create".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('institute/batch...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/institute/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/25 23:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/25 23:42:33 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(19): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (19)
+2012/07/25 23:44:33 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(19): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (19)
+2012/07/25 23:45:32 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(19): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (19)
+2012/07/25 23:55:16 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(19): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (19)
+2012/07/25 23:58:32 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (20)
+2012/07/25 23:59:02 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (20)
+2012/07/26 00:01:46 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (20)
+2012/07/26 00:03:57 [error] [php] Undefined variable: pdo (/home/admin/emock/protected/models/DbConnection.php:90)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(25): Batch->save()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/models/DbConnection.php (90)
+in /home/admin/emock/protected/models/MockData.php (45)
+in /home/admin/emock/protected/models/MockData.php (21)
+2012/07/26 00:04:52 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (20)
+2012/07/26 00:06:08 [error] [php] include(DBConnection.php): failed to open stream: No such file or directory (/home/admin/emock/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/admin/emock/protected/controllers/admin/BatchController.php(16): spl_autoload_call()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/controllers/admin/BatchController.php (16)
+in /home/admin/emock/index.php (20)
+2012/07/26 00:06:36 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'instituteCode' in 'field list'' in /home/admin/emock/protected/models/MockData.php:55
+Stack trace:
+#0 /home/admin/emock/protected/models/MockData.php(55): PDOStatement->execute()
+#1 /home/admin/emock/protected/models/MockData.php(21): MockData->insert()
+#2 /home/admin/emock/protected/controllers/admin/BatchController.php(25): MockData->save()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/admin/emock/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/26 00:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:13:23 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'instituteCode' in 'field list'' in /home/admin/emock/protected/models/MockData.php:55
+Stack trace:
+#0 /home/admin/emock/protected/models/MockData.php(55): PDOStatement->execute()
+#1 /home/admin/emock/protected/models/MockData.php(21): MockData->insert()
+#2 /home/admin/emock/protected/controllers/admin/BatchController.php(25): MockData->save()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/admin/emock/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/26 00:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:14:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 00:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 00:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:22:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 00:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "student/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('student/list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/student/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 22:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/26 22:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 22:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 22:58:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 22:58:28 [error] [exception.CException] exception 'CException' with message 'Property "BatchController.errors" is not defined.' in /home/admin/emock/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/admin/emock/protected/views/admin/batch/create.php(3): CComponent->__get('errors')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require('/home/admin/emo...')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/admin/emo...', NULL, true)
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(870): CBaseController->renderFile('/home/admin/emo...', NULL, true)
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(783): CController->renderPartial('create', NULL, true)
+#5 /home/admin/emock/protected/controllers/admin/BatchController.php(40): CController->render('create')
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#11 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#12 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/admin/emock/index.php(20): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 22:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 22:59:27 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /home/admin/emock/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/base/CModule.php(106): CComponent->__get('input')
+#1 /home/admin/emock/protected/controllers/admin/BatchController.php(20): CModule->__get('input')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/admin/emock/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/26 23:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:02:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:02:36 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /home/admin/emock/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/base/CModule.php(106): CComponent->__get('input')
+#1 /home/admin/emock/protected/controllers/admin/BatchController.php(22): CModule->__get('input')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/admin/emock/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/26 23:06:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:07:00 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /home/admin/emock/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/base/CModule.php(106): CComponent->__get('input')
+#1 /home/admin/emock/protected/controllers/admin/BatchController.php(20): CModule->__get('input')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/admin/emock/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/26 23:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:11:47 [error] [php] Undefined index: batch_code (/home/admin/emock/protected/components/BatchHelper.php:10)
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/components/BatchHelper.php (10)
+in /home/admin/emock/protected/controllers/admin/BatchController.php (20)
+in /home/admin/emock/index.php (20)
+2012/07/26 23:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "batches/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('batches/list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/batches/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:13:33 [error] [php] Undefined index: batch_remarks (/home/admin/emock/protected/components/BatchHelper.php:14)
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/components/BatchHelper.php (14)
+in /home/admin/emock/protected/controllers/admin/BatchController.php (20)
+in /home/admin/emock/index.php (20)
+2012/07/26 23:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:13:54 [error] [php] Undefined index: batch_remarks (/home/admin/emock/protected/components/BatchHelper.php:14)
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/admin/emock/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/create
+in /home/admin/emock/protected/components/BatchHelper.php (14)
+in /home/admin/emock/protected/controllers/admin/BatchController.php (20)
+in /home/admin/emock/index.php (20)
+2012/07/26 23:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:14:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:17:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:23:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/26 23:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:31:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:36:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:36:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:40:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:51:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/26 23:52:56 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/admin/emock/protected/models/DbConnection.php:86
+Stack trace:
+#0 /home/admin/emock/protected/models/DbConnection.php(86): PDO->__construct('mysql:dbname=mo...', 'root', 'qkr123@#', Array)
+#1 /home/admin/emock/protected/models/MockData.php(45): DbConnection->getConnection('mock', 2)
+#2 /home/admin/emock/protected/models/MockData.php(21): MockData->insert()
+#3 /home/admin/emock/protected/controllers/admin/BatchController.php(33): MockData->save()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#10 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/admin/emock/index.php(20): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/26 23:53:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/27 00:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "batches/list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('batches/list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/emock/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/batches/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/27 00:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
+2012/07/27 00:03:22 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'institute_id' cannot be null' in /home/admin/emock/protected/models/MockData.php:55
+Stack trace:
+#0 /home/admin/emock/protected/models/MockData.php(55): PDOStatement->execute()
+#1 /home/admin/emock/protected/models/MockData.php(21): MockData->insert()
+#2 /home/admin/emock/protected/controllers/admin/BatchController.php(25): MockData->save()
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#4 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#8 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#9 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/admin/emock/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/27 00:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/admin/emock/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/admin/emock/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/admin/emock/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/admin/emock/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1/
+---
