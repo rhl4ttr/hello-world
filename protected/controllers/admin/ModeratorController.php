@@ -6,8 +6,18 @@ class ModeratorController extends Controller
 	
 	public function actionIndex()
 	{
-		$this->layout = '/admin/full_layout';
-		$this->render('index');
+		
+		if(!$_SESSION["loggedIn"]){
+		
+		$this->layout = '/admin/login_layout';
+		
+		$this->render('/admin/login');
+		}else{
+			$this->layout = '/admin/full_layout';
+			
+			$this->render('/admin/moderator/dashboard');
+		}
+		
 	}
 	
 	public function actionDashboard(){
@@ -18,8 +28,22 @@ class ModeratorController extends Controller
 	}
 	
 	public function actionLogin(){
+		
+		if(Yii::app()->request->getIsPostRequest()){
+			
+			
+			$userIdentity = new UserIdentity($_POST["username"], $_POST["password"], UserIdentity::MODERATOR);
+			$return = $userIdentity->authenticate();
+			
+			
+			
+			if($return){
+				$this->redirect('/admin/moderator');
+			}else{
+				
+			}
+		}
 	
-		$this->render('login');
 	
 			
 	}

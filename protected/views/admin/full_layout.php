@@ -4,7 +4,7 @@
  
  echo '
  <div class="content_wrapper">';
- $this->renderPartial('/admin/moderator/leftmenu');
+ $this->renderPartial('/admin/leftmenu');
  echo '<div class="contentOuter" id="content">';
  
 echo $content;

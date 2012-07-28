@@ -1,0 +1,108 @@
+/*LOGIN PANEL*/
+img{
+border:0px;
+}
+
+.login_right{
+background:url(/static/images/loginbackground.jpg) no-repeat;
+width:345px;
+height:230px;
+}
+
+.login_txt{
+color:#777777;
+font-size:13px;
+}
+
+.login_input{
+background:none repeat scroll 0 0 #FBFBFB;
+border:1px solid #E5E5E5;
+font-size:24px;
+margin-bottom:16px;
+margin-right:6px;
+margin-top:2px;
+padding:3px;
+width:97%;
+color:#666666;
+}
+
+
+input.submit, a.abut {
+background: #247CA4;
+border: 1px solid #A4B7FB;
+border-radius: 4px 4px 4px 4px;
+color: #FFFFFF;
+cursor: pointer;
+font-weight: bold;
+padding: 5px 8px;
+width: 92px;
+cursor:pointer;
+font-size:15px;
+font-family:Verdana, Geneva, sans-serif;
+}
+/**/
+
+/************************ ERROR MESSAGE CSS START ******************************/
+
+.error_left_top_corn {
+	background-image: url(/static/images/error_left_top_corn.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 11px;
+}
+.error_right_top_corn {
+	background-image: url(/static/images/error_right_top_corn.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 11px;
+}
+.error_left_bot_corn {
+	background-image: url(/static/images/error_left_bot_corn.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 11px;
+}
+.error_right_bot_corn {
+	background-image: url(/static/images/error_right_bot_corn.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 11px;
+}
+
+.error_left_line {
+	background-image: url(/static/images/error_left_line.gif);
+	background-repeat: repeat-y;
+	width: 11px;
+}
+.error_right_line {
+	background-image: url(/static/images/error_right_line.gif);
+	background-repeat: repeat-y;
+	width: 11px;
+}
+.error_top_line {
+	background-image: url(/static/images/error_top_line.gif);
+	background-repeat: repeat-x;
+	height: 11px;
+}
+.error_bot_line {
+	background-image: url(/static/images/error_bot_line.gif);
+	background-repeat: repeat-x;
+	height: 11px;
+}
+.error_bg {
+background-color:#ffcccc;}
+
+/**/
+
+.errorhead{
+font-weight:bold;
+vertical-align:middle;
+padding-top: 8px;
+}
+
+li{
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+padding-top: 10px;
+}

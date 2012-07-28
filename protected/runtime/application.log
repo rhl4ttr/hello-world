@@ -5402,3 +5402,388 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/07/28 15:13:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1:8624/static/css/democss.css
+---
+2012/07/28 15:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1:8624/static/css/democss.css
+---
+2012/07/28 15:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1:8624/static/css/democss.css
+---
+2012/07/28 15:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1:8624/static/css/democss.css
+---
+2012/07/28 15:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/login')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/login
+HTTP_REFERER=http://127.0.0.1:8624/
+---
+2012/07/28 15:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/
+---
+2012/07/28 15:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/28 15:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1:8624/static/css/democss.css
+---
+2012/07/28 15:32:07 [error] [exception.CException] exception 'CException' with message 'ModeratorController cannot find the requested view "login".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php:879
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(783): CController->renderPartial('login', NULL, true)
+#1 /home/hello-world/protected/controllers/admin/ModeratorController.php(11): CController->render('login')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#7 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator')
+#8 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/hello-world/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/moderator
+---
+2012/07/28 15:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/logo.png".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/logo.png')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/logo.png
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 15:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/admin/loginbackground.jpg".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/admin/loginbackground.jpg
+HTTP_REFERER=http://127.0.0.1:8624/static/css/login.css
+---
+2012/07/28 15:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/logo.png".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/logo.png')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/logo.png
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 15:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/logo.png".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/logo.png')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/logo.png
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 15:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/admin/loginbackground.jpg".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/admin/loginbackground.jpg
+HTTP_REFERER=http://127.0.0.1:8624/static/css/login.css
+---
+2012/07/28 15:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/logo.png".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/logo.png')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/logo.png
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 15:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/logo.png".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/logo.png')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/logo.png
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 15:36:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/static/images/loginbackground.jpg".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/css/stat...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/static/images/loginbackground.jpg
+HTTP_REFERER=http://127.0.0.1:8624/static/css/login.css
+---
+2012/07/28 15:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/logo.png".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/logo.png')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/logo.png
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 15:36:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/logo.png".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/logo.png')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/logo.png
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 15:40:28 [error] [exception.CException] exception 'CException' with message 'Property "ModeratorController.name" is not defined.' in /home/hello-world/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/hello-world/protected/views/admin/login.php(4): CComponent->__get('name')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require('/home/hello-wor...')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/hello-wor...', NULL, true)
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(870): CBaseController->renderFile('/home/hello-wor...', NULL, true)
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(783): CController->renderPartial('/admin/login', NULL, true)
+#5 /home/hello-world/protected/controllers/admin/ModeratorController.php(11): CController->render('/admin/login')
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#7 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#11 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator')
+#12 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/hello-world/index.php(20): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/moderator
+---
+2012/07/28 15:41:07 [error] [exception.CException] exception 'CException' with message 'Property "ModeratorController._id" is not defined.' in /home/hello-world/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/hello-world/protected/views/admin/login.php(4): CComponent->__get('_id')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CBaseController.php(127): require('/home/hello-wor...')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/hello-wor...', NULL, true)
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(870): CBaseController->renderFile('/home/hello-wor...', NULL, true)
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(783): CController->renderPartial('/admin/login', NULL, true)
+#5 /home/hello-world/protected/controllers/admin/ModeratorController.php(11): CController->render('/admin/login')
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionIndex()
+#7 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('')
+#11 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator')
+#12 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/hello-world/index.php(20): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/moderator
+---
+2012/07/28 17:06:26 [error] [exception.CException] exception 'CException' with message 'Property "ModeratorController." is not defined.' in /home/hello-world/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 variable expression(1): CComponent->__get('')
+#1 /home/hello-world/protected/controllers/admin/ModeratorController.php(24): ModeratorController::actionLogin()
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionLogin()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('login')
+#7 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator...')
+#8 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/hello-world/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/moderator/login
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 17:07:53 [error] [exception.CException] exception 'CException' with message 'Property "ModeratorController." is not defined.' in /home/hello-world/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 variable expression(1): CComponent->__get('')
+#1 /home/hello-world/protected/controllers/admin/ModeratorController.php(24): ModeratorController::actionLogin()
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionLogin()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('login')
+#7 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator...')
+#8 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/hello-world/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/moderator/login
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 17:09:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('login')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('login')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator...')
+#3 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/hello-world/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/moderator/login
+---
+2012/07/28 17:10:30 [error] [exception.CException] exception 'CException' with message 'Property "ModeratorController." is not defined.' in /home/hello-world/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 variable expression(1): CComponent->__get('')
+#1 /home/hello-world/protected/controllers/admin/ModeratorController.php(24): ModeratorController::actionLogin()
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionLogin()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('login')
+#7 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator...')
+#8 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/hello-world/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/moderator/login
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 17:12:36 [error] [exception.CException] exception 'CException' with message 'Property "ModeratorController." is not defined.' in /home/hello-world/yii-1.1.10.r3566/framework/base/CComponent.php:131
+Stack trace:
+#0 variable expression(1): CComponent->__get('')
+#1 /home/hello-world/protected/controllers/admin/ModeratorController.php(27): ModeratorController::actionLogin()
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionLogin()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('login')
+#7 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator...')
+#8 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/hello-world/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/moderator/login
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 17:28:19 [error] [php] Missing argument 3 for UserIdentity::__construct(), called in /home/hello-world/protected/components/Controller.php on line 30 and defined (/home/hello-world/protected/components/UserIdentity.php:17)
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): ModeratorController->runAction()
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): ModeratorController->runActionWithFilters()
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): ModeratorController->run()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/moderator
+in /home/hello-world/protected/components/UserIdentity.php (17)
+in /home/hello-world/protected/components/Controller.php (30)
+in /home/hello-world/index.php (20)
+2012/07/28 17:29:01 [error] [php] Object of class CInlineAction could not be converted to string (/home/hello-world/protected/components/Controller.php:31)
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): ModeratorController->runActionWithFilters()
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): ModeratorController->run()
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/moderator
+in /home/hello-world/protected/components/Controller.php (31)
+in /home/hello-world/index.php (20)
+2012/07/28 17:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator...')
+#3 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/hello-world/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/moderator/admin/moderator
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 17:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/moderator...')
+#3 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/hello-world/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/moderator/admin/moderator
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 17:42:31 [error] [php] Cannot modify header information - headers already sent by (output started at /home/hello-world/protected/controllers/admin/ModeratorController.php:37) (/home/hello-world/yii-1.1.10.r3566/framework/web/CHttpRequest.php:716)
+Stack trace:
+#0 /home/hello-world/protected/controllers/admin/ModeratorController.php(40): ModeratorController->redirect()
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): ModeratorController->actionLogin()
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): ModeratorController->runAction()
+#4 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): ModeratorController->runActionWithFilters()
+#5 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): ModeratorController->run()
+#6 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/moderator/login
+in /home/hello-world/protected/controllers/admin/ModeratorController.php (40)
+in /home/hello-world/index.php (20)
+2012/07/28 17:48:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1:8624/static/css/democss.css
+---
+2012/07/28 17:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1:8624/static/css/democss.css
+---
+2012/07/28 17:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/hello-world/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---
+2012/07/28 17:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/hello-world/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('list')
+#1 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('list')
+#2 /home/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/lis...')
+#3 /home/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/hello-world/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/batch/list
+HTTP_REFERER=http://127.0.0.1:8624/admin/moderator
+---

@@ -66,9 +66,7 @@ class MockData{
 		unset($temp[$this->pKey]);
 		
 		
-		$columns = array_values($temp);
-		
-		$params = ':'. join(', :', $columns);
+		$columns = array_values($temp);		
 		
 		$sql = 'UPDATE '. $this->tableName.' SET ';
 		
@@ -156,10 +154,28 @@ class MockData{
 	
 	public function find($options = array()){	
 		
-		$condition = '';
+		$condition = ' WHERE ';
 		if(array_key_exists("condition", $options)){
-			$condition = ' WHERE '. $this->getClause($options["condition"]);
+			$condition .= $this->getClause($options["condition"]);
 		}
+		
+		
+		$set = array();
+		foreach ($this->mappings as $modelVar => $modelColumn){
+				
+			if(!is_null($this->$modelVar)){
+				$set[] = "{$modelColumn}=:{$modelColumn}";
+		
+		
+				$params[$modelVar] = $modelColumn;
+			}
+				
+		}
+		
+		$condition .= join(' AND ', $set);
+
+		
+		
 		
 		$start = '';
 		if(array_key_exists("start", $options)){
@@ -188,6 +204,11 @@ class MockData{
 			foreach($options["values"] as $key => $value){
 				$prepped->bindParam($key, $options["values"][$key]);
 			}
+		}
+		
+		
+		foreach($params as $modelVar => $modelColumn){
+			$prepped->bindParam(":{$modelColumn}", $this->$modelVar);
 		}
 		
 		$prepped->execute();
