@@ -11,8 +11,8 @@ defined('YII_DEBUG') or define('YII_DEBUG',true);
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
 
-define('STATIC_DOMAIN', 'http://127.0.0.1/');	
-define('STATIC_IMAGE_DOMAIN', 'http://127.0.0.1/');
+define('STATIC_DOMAIN', 'http://127.0.0.1:8624/');	
+define('STATIC_IMAGE_DOMAIN', 'http://127.0.0.1:8624/');
 
 
 

@@ -6,8 +6,22 @@ class ModeratorController extends Controller
 	
 	public function actionIndex()
 	{
-		$this->layout = '/admin/moderator/full_layout';
+		$this->layout = '/admin/full_layout';
 		$this->render('index');
+	}
+	
+	public function actionDashboard(){
+		
+		$this->render('dashboard');
+		
+		 
+	}
+	
+	public function actionLogin(){
+	
+		$this->render('login');
+	
+			
 	}
 
 	// -----------------------------------------------------------

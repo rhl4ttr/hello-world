@@ -1,6 +1,13 @@
 <?php
 
 $leftmenu []  =array(
+		"title"=>"Dashboard",
+		"link"=> "#/admin/moderator/dashboard",
+
+
+		"submenu"=>array());
+
+$leftmenu []  =array(
 "title"=>"Batch", 
 "link"=> "#/batches/list",
 		
@@ -28,7 +35,7 @@ $leftmenu []  =array(
 
  
 <div class="left_menu">
-
+<div class="sub_title_bar" style="height:20px;">OPTIONS</div>
 <?php 
 
 foreach($leftmenu as $cat=>$subcat){

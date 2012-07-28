@@ -36,7 +36,13 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
 	</div>
 
 	<!-- STRIP STARTS HERE -->
-	<div class="web_strip"></div>
+	<div class="web_strip">
+	<div class="header_menu" style="float: right;padding: 6px 15px;" onhover=>
+	<img width="10" height="9" border="0" src="<?php echo STATIC_DOMAIN;?>static/images/logout_icon.gif">
+	&nbsp;&nbsp;Logout</div>
+	
+	
+	</div>
 	  <div class="web_strip_white"></div> 
 	<!-- STRIP ENDS HERE -->
 

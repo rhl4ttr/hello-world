@@ -4,7 +4,7 @@ class BatchHelper{
 	/**
 	 * 
 	 * @param Batch $batch
-	 * @return multitype:multitype:string
+	 * 
 	 */
 	public static function validateBatch($batch){
 		
@@ -35,17 +35,17 @@ class BatchHelper{
 			$batch->endDate = 233;
 		}
 		
-		if(empty($location)){
+		/*if(empty($location)){
 			$errors[] = array("el"=>"batch_location", "code"=>"blank", "msg"=>"Batch location can not be blank.");
 		}else{
 			$batch->location = $location;
-		}
+		}*/
 		
-		if(empty($remarks)){
+		/*if(empty($remarks)){
 			$errors[] = array("el"=>"batch_remarks", "code"=>"blank", "msg"=>"Batch comments can not be blank.");
 		}else{
 			$batch->comments = $remarks;
-		}
+		}*/
 		
 		return $errors;
 	}
