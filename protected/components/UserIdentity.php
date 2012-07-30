@@ -6,20 +6,28 @@
  * data can identity the user.
  */
 class UserIdentity extends CUserIdentity {
-	
+
 	const MODERATOR = 1;
 	const EDITOR = 2;
 	const STUDENT = 4;
 	const SUPERADMIN = 8;
 	
 	public $type;
+	public $id;
 	
 	public function __construct($email, $password, $type){
 		
-		parent::__construct($email, $password);
+		parent::__construct(trim(strtolower($email)), $password);
 		
 		$this->type = $type;
 	}
+	
+	
+	public function getId()	{
+		return $this->id;
+	}
+	
+	
 	
 	/**
 	 * Authenticates a user.
@@ -60,11 +68,6 @@ class UserIdentity extends CUserIdentity {
 	
 	public function authenticateModerator() {
 		
-		
-		if($_SESSION["loggedIn"]){
-			return true;
-		}
-		
 		if (Utils::isValidEmailAddress ( $this->username )) {
 				
 			$moderator = new Moderator ();
@@ -73,12 +76,16 @@ class UserIdentity extends CUserIdentity {
 			$moderators = $moderator->find ();
 			if(!empty($moderators)){
 				$myModerator = $moderators[0];
-				if($this->password == $myModerator->password){
+				if(md5($this->password) == $myModerator->password){
 					
-					session_start();
-					$_SESSION["email"] = $this->username;
-					$_SESSION["password"] = $this->password;
-					$_SESSION["loggedIn"] = true;
+					$this->id = $myModerator->id;
+					
+					//$this->setState("isModerator", true);
+					
+					
+					$this->setState("role", self::MODERATOR);					
+					Yii::app()->user->login($this, 24*3600);
+					
 					
 					return true;
 				}else{
@@ -89,4 +96,9 @@ class UserIdentity extends CUserIdentity {
 			
 		}
 	}
+	
+	
+	
+	
+	
 }

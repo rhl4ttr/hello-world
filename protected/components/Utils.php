@@ -30,24 +30,10 @@ class Utils {
 	}
 	
 	public static function isValidEmailAddress($email) {
-		$pattern_email = '^(.*)@(.*)$';
-		if (eregi ( $pattern_email, $email )) {
-			list ( $local, $domain ) = explode ( "@", $email );
-		} else {
-			return false;
-		}
-		$pattern_local = '^([0-9a-z]*([-|_]?[0-9a-z]+)*)(([-|_]?)\.([-|_]?)[0-9a-z]*([-|_]?[0-9a-z]+)+)*([-|_]?)$';
-		$pattern_domain = '^([0-9a-z]+([-]?[0-9a-z]+)*)(([-]?)\.([-]?)[0-9a-z]*([-]?[0-9a-z]+)+)*\.[a-z]{2,4}$';
-		$match_local = eregi ( $pattern_local, $local );
-		$match_domain = eregi ( $pattern_domain, $domain );
+		$pattern = '/[a-zZ-Z0-9\._]+@[a-zZ-Z0-9\.]+\.[a-z]+/';
 		
-		if ($match_local && $match_domain) {
-			if ($doDomainValidate) {
-				return $this->hasValidDomain ( $email );
-			} else
-				return true;
-		} else
-			return false;
+		
+		return preg_match($pattern, $email)!==0;
 	
 	}
 

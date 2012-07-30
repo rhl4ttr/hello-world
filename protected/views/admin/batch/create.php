@@ -1,4 +1,4 @@
-<form name="batch_form" id="batch_form" method="post" action="/admin/batch/create">
+<form name="batch_form" id="batch_form" method="post" action="/admin/batch/create/orgId/<?php echo Yii::app()->getRequest()->getQuery('orgId'); ?>">
  
 <table id="formTable" border="0" width="100%" cellspacing="0" cellpadding="0">
 	<tr>
@@ -20,6 +20,7 @@
    // additional javascript options for the date picker plugin
       'options'=>array(
             'showAnim'=>'fold',
+'dateFormat'=>'dd-mm-yy',
       ),
         'htmlOptions'=>array(
                 'style'=>'height:20px;'
@@ -33,6 +34,7 @@
    // additional javascript options for the date picker plugin
       'options'=>array(
             'showAnim'=>'fold',
+'dateFormat'=>'dd-mm-yy',
       ),
         'htmlOptions'=>array(
                 'style'=>'height:20px;'
@@ -80,10 +82,10 @@ echo 'window.batchValues = '.json_encode($_POST).';';
 
 
 
-if(!empty($this->errors)){
+if(!empty($data->errors)){
 
 
-echo 'window.batchSubmitResults = '.json_encode($this->errors).';';
+echo 'window.batchSubmitResults = '.json_encode($data->errors).';';
 
 echo <<<EOD
 

@@ -6,17 +6,21 @@ class ModeratorController extends Controller
 	
 	public function actionIndex()
 	{
+		//if(Yii::app()->user->checkAccess('deletePost'))
+		//{
 		
-		if(!$_SESSION["loggedIn"]){
-		
-		$this->layout = '/admin/login_layout';
-		
-		$this->render('/admin/login');
+		if(Yii::app()->user->getIsGuest()){
+			
+			$this->redirect('/admin/moderator/login');
+	
+			
 		}else{
+
 			$this->layout = '/admin/full_layout';
 			
-			$this->render('/admin/moderator/dashboard');
+			$this->render('/admin/moderator/index');
 		}
+	//	}
 		
 	}
 	
@@ -29,7 +33,7 @@ class ModeratorController extends Controller
 	
 	public function actionLogin(){
 		
-		if(Yii::app()->request->getIsPostRequest()){
+		if(Yii::app()->request->isPostRequest){
 			
 			
 			$userIdentity = new UserIdentity($_POST["username"], $_POST["password"], UserIdentity::MODERATOR);
@@ -39,10 +43,13 @@ class ModeratorController extends Controller
 			
 			if($return){
 				$this->redirect('/admin/moderator');
-			}else{
-				
 			}
 		}
+		
+		
+		$this->layout = '/admin/login_layout';
+		
+		$this->render('/admin/login');
 	
 	
 			

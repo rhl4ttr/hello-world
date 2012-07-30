@@ -18,9 +18,9 @@ class MockData{
 	public function save(){		
 		
 		if(empty($this->{$this->pKey})){
-			$this->insert();
+			return $this->insert();
 		}else{
-			$this->update();
+			return $this->update();
 		}
 		
 		
@@ -54,7 +54,10 @@ class MockData{
 		
 		$prepped->execute();
 		
-		$this->{$this->pKey} = $conn->lastInsertId();		
+		$this->{$this->pKey} = $conn->lastInsertId();
+
+		
+		return $prepped->rowCount();
 		
 	}
 	
@@ -104,7 +107,7 @@ class MockData{
 		
 		$prepped->execute();
 		
-		
+		return $prepped->rowCount();
 	}
 	
 	
@@ -179,7 +182,7 @@ class MockData{
 		
 		$start = '';
 		if(array_key_exists("start", $options)){
-			$limit = $options["start"].', ';
+			$start = $options["start"].', ';
 		}
 		
 		$limit = ' LIMIT '. $start.' 10';

@@ -21,13 +21,37 @@ class Controller extends CController
 	 */
 	public $breadcrumbs=array();
 	
+	/*
+	public function accessRules()
+	{
+		return array(
+
+				array('allow',
+						'controllers'=>array('admin/batch'),
+						'actions'=>array('index', 'edit', 'delete', 'list'),
+						'users'=>array('*'),
+				),
+				array('deny',
+						'actions'=>array('delete'),
+						'users'=>array('*'),
+				),
+		);
+	}
+	
+	
+	public function filters()
+	{
+		return array(
+				'accessControl',
+		);
+	}
+	*/
 	
 	
 	public function beforeAction($action){
 		
-		
-		
-		parent::beforeAction($action);
+
+		return parent::beforeAction($action);
 		
 		//echo $action->id;
 		//return true;

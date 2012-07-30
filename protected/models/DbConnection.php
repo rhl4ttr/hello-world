@@ -58,7 +58,7 @@ class DbConnection{
 	 * @param Integer $connectionType
 	 * @return PDO
 	 */
-	public function getConnection($dbName, $connectionType){
+	public function getConnection($dbName, $connectionType = self::READ_SERVER){
 		$key = "{$dbName}.{$connectionType}";
 		
 		if(array_key_exists($key, $this->connections)){

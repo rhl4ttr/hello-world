@@ -36,6 +36,13 @@ ul,ul.li {
 	width: 100%;
 }
 
+
+.mbox{
+	float:left;
+	width:100%;
+	padding:4px;
+}
+
 .header_left {
 	float: left;
 	width: 40%;
@@ -183,6 +190,8 @@ ul,ul.li {
 
 .contentInner{
 	width: 100%;
+	background-color: #ffffff;
+padding-bottom:30px
 }
 
 .heading_bar {
@@ -387,4 +396,66 @@ border-bottom:1px solid #c4c4c4;
 .border {
 border:1px solid #dedede;
 line-height:15px;
+}
+.listTable{
+	text-align: center;
+}
+.rowLink{
+	cursor: pointer;
+}
+
+
+
+
+
+.pager_wrapper{
+	margin-left:10px;
+width:100%;
+margin-top: 10px;
+}
+/*pagination*/
+.mpager li{
+border:0; margin:0; padding:0;
+margin-right:5px;
+float:left;
+font-size:11px;
+list-style:none;
+margin-right:2px;
+}
+.mpager a{
+border:solid 1px #9aafe5
+margin-right:2px;
+}
+.mpager .previous-off,
+.mpager .next-off {
+border:solid 1px #DEDEDE
+color:#888888
+display:block;
+float:left;
+font-weight:bold;
+margin-right:2px;
+padding:3px 4px;
+}
+.mpager .next a,
+.mpager .previous a {
+font-weight:bold;
+}
+.mpager .active{
+background:#2e6ab1;
+color:#FFFFFF;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+.mpager a:link,
+.mpager a:visited {
+color:#0e509e
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+.mpager a:hover{
+border:solid 1px #0e509e
 }
