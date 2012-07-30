@@ -22,8 +22,9 @@ foreach ($data->batches as $batch){
 	
 	
 	
-	echo '<tr pkey="'.$batch->id.'" class="rowLink">
-			<td><input type="checkbox" value="'.$batch->id.'" name="batchIds[]"/></td>
+	echo '<tr pkey="'.$batch->id.'">
+			<td><input type="checkbox" value="'.$batch->id.'" name="batchIds[]"/>
+					<a  href="#/'.$this->id.'/edit/id/'.$batch->id.'">edit</a></td>
 			<td>'.$batch->code.'</td>
 			<td>'.$batch->location.'</td>
 			<td>'.date('l d M, Y', $batch->startDate).'</td>
@@ -50,20 +51,6 @@ toggleFormRows();
 
 
 
-$("#formTable tr").each(function(){
-//
-
-
-$(this).bind("click", function(){
-	var pkey = $(this).attr("pkey");
-	if(!pkey)return;
-	
-	top.location.hash = "/admin/batch/edit/id/"+pkey;
-});
-
-
-
-});
 
 //-->
 

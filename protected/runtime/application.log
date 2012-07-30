@@ -9881,3 +9881,1126 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/admin/favicon.ico
 ---
+2012/07/30 21:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/30 21:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/30 21:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 21:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 21:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:03:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:03:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:04:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:04:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:11:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:12:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:12:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:13:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:13:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:15:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:19:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:20:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:23:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:23:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:24:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:29:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:36:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:36:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:36:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:37:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:37:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:40:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:42:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:46:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:58:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:58:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:58:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:58:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 22:59:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:06:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:06:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:17:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/30 23:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/admin/moderator
+---
+2012/07/30 23:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 23:18:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/admin/moderator
+---
+2012/07/30 23:18:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 23:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 23:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 23:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 23:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 23:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/favicon.i...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/favicon.ico
+---
+2012/07/30 23:24:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:37:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:44:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:44:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:45:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---

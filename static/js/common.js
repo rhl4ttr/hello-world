@@ -1,20 +1,23 @@
-$(document).ready(loadAjax);
+$(document).ready(function(){
+	$(window).bind('hashchange', function(){
+		loadAjax();
+	});
+	loadAjax();
+});
  
-function loadAjax(){
+function loadAjax(){	
+	
 	if(! window.location.hash){
 		return;
 	}
+
+	if(window.top!==window.self){
+		window.top.location.hash = window.location.hash;		
+		return;	
+	}
 	
 	var url = window.location.hash.replace('#', '');
-	/*$.ajax({
-		 type: "POST",
-		 url: url,
-		 dataType: "html",
-		 success: function(re) {
-			 //$id("loading").style.display="none";
-                $("#content").html(re);
-		 } }) 
-	*/
+
 	var iframe = $("#contentFrame");
 	iframe.attr("src", url);
 	

@@ -50,16 +50,5 @@ foreach($leftmenu as $cat=>$subcat){
 ?>
 
 </div>
-<script type="text/javascript">
-$(window).bind('hashchange', loadAjax);
 
-/*$("#leftnavwrapper a, .lmlinks a").each(
-		function(){
-			
-			$(this).bind('click', loadAjax);
-			}
-		);
-
-		*/
-</script>
 <!-- LEFT MENU ENDS HERE -->
