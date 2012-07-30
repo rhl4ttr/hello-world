@@ -7,7 +7,7 @@ class BatchController extends Controller
 	public $layout = '/admin/content_layout';
 	
 	
-	public function actionCreate($orgId)
+	public function actionCreate()
 	{	
 		/*
 		 * http://www.yiiframework.com/doc/api/1.1/CHttpRequest
@@ -19,7 +19,7 @@ class BatchController extends Controller
 						
 			if(empty($errors)){
 				
-				$batch->organizationId = $orgId;				
+				$batch->organizationId = Yii::app()->user->getOrgId();				
 				$batch->save();
 			}
 			
@@ -34,21 +34,18 @@ class BatchController extends Controller
 	}
 	
 	
-	public function actionList($orgId)
+	public function actionList()
 	{		
 		$data = new stdClass();
 		
 		$batch = new Batch();
-		$batch->organizationId =  $orgId;
+		$batch->organizationId =  Yii::app()->user->getOrgId();
 		
 		$orgBatchCount = $batch->getBatchCount();
 		$data->pager = new Pagination(10, 10, Yii::app()->request->getQuery("page", 1), $orgBatchCount, true);
 		
 		
-		$batches = $batch->find(array("rows"=>10, "start"=>$data->pager->getOffset()));		
-		
-		
-		
+		$batches = $batch->find(array("rows"=>10, "start"=>$data->pager->getOffset()));
 		
 		
 		$data->batches = $batches;
@@ -75,7 +72,7 @@ class BatchController extends Controller
 				
 			if(empty($errors)){	
 				
-				$batch->organizationId = 567;	
+				$batch->organizationId = Yii::app()->user->getOrgId();	
 				$batch->save();
 			}
 	

@@ -9,12 +9,12 @@ $leftmenu []  =array(
 
 $leftmenu []  =array(
 "title"=>"Batch", 
-"link"=> "#/admin/batch/list/orgId/". Yii::app()->user->userObj->organizationId,
+"link"=> "#/admin/batch/list",
 		
 
 "submenu"=>array(
-		array('title'=> 'Create Batch', 'link'=>'#/admin/batch/create/orgId/'. Yii::app()->user->userObj->organizationId),
-		array('title'=> 'List Batch', "link"=> "#/admin/batch/list/orgId/". Yii::app()->user->userObj->organizationId)
+		array('title'=> 'Create Batch', 'link'=>'#/admin/batch/create'),
+		array('title'=> 'List Batch', "link"=> "#/admin/batch/list")
 		));
 
 $leftmenu []  =array(

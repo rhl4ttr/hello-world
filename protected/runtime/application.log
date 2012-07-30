@@ -11004,3 +11004,123 @@ Stack trace:
 REQUEST_URI=/static/images/arrowon.gif
 HTTP_REFERER=http://127.0.0.1/static/css/democss.css
 ---
+2012/07/30 23:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:49:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/lmarrow.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/l...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/lmarrow.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/arrowon.gif".' in /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('static/images/a...')
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/admin/hello-world/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/arrowon.gif
+HTTP_REFERER=http://127.0.0.1/static/css/democss.css
+---
+2012/07/30 23:59:31 [error] [exception.CException] exception 'CException' with message 'Error occured. Code: 876' in /home/admin/hello-world/protected/components/WebUser.php:35
+Stack trace:
+#0 /home/admin/hello-world/protected/controllers/admin/BatchController.php(75): WebUser->getOrgId()
+#1 [internal function]: BatchController->actionEdit('4')
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(BatchController), Array)
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(BatchController), Object(ReflectionMethod), Array)
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('edit')
+#8 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/edi...')
+#9 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/admin/hello-world/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/batch/edit/id/4
+HTTP_REFERER=http://127.0.0.1/admin/batch/edit/id/4
+---
+2012/07/31 00:01:41 [error] [exception.CException] exception 'CException' with message 'Error occured. Code: 876' in /home/admin/hello-world/protected/components/WebUser.php:35
+Stack trace:
+#0 /home/admin/hello-world/protected/controllers/admin/BatchController.php(22): WebUser->getOrgId()
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): BatchController->actionCreate()
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('create')
+#6 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/cre...')
+#7 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/admin/hello-world/index.php(20): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/batch/create
+HTTP_REFERER=http://127.0.0.1/admin/batch/create
+---
+2012/07/31 00:03:27 [error] [exception.CException] exception 'CException' with message 'Error occured. Code: 876' in /home/admin/hello-world/protected/components/WebUser.php:35
+Stack trace:
+#0 /home/admin/hello-world/protected/controllers/admin/BatchController.php(75): WebUser->getOrgId()
+#1 [internal function]: BatchController->actionEdit('5')
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(BatchController), Array)
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(BatchController), Object(ReflectionMethod), Array)
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('edit')
+#8 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/edi...')
+#9 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/admin/hello-world/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/batch/edit/id/5
+HTTP_REFERER=http://127.0.0.1/admin/batch/edit/id/5
+---
+2012/07/31 00:03:59 [error] [exception.CException] exception 'CException' with message 'Error occured. Code: 876' in /home/admin/hello-world/protected/components/WebUser.php:35
+Stack trace:
+#0 /home/admin/hello-world/protected/controllers/admin/BatchController.php(75): WebUser->getOrgId()
+#1 [internal function]: BatchController->actionEdit('5')
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(BatchController), Array)
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(BatchController), Object(ReflectionMethod), Array)
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('edit')
+#8 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/batch/edi...')
+#9 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/admin/hello-world/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/batch/edit/id/5
+HTTP_REFERER=http://127.0.0.1/admin/batch/edit/id/5
+---

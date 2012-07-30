@@ -29,6 +29,14 @@ class WebUser extends CWebUser
 	}
 	
 	
+	public function getOrgId(){
+		/*$this->userObj->organizationId = 0;*/
+		if(empty($this->userObj->organizationId)){
+			throw new CException("Error occured. Code: 876");
+		}
+		return $this->userObj->organizationId;
+	}
+	
 	
 	protected function afterLogin($fromCookie)
 	{

@@ -1,4 +1,4 @@
-<form name="batch_form" id="batch_form" method="post" action="/admin/batch/create/orgId/<?php echo Yii::app()->getRequest()->getQuery('orgId'); ?>">
+<form name="batch_form" id="batch_form" method="post" action="/admin/batch/create">
  
 <table id="formTable" border="0" width="100%" cellspacing="0" cellpadding="0">
 	<tr>
