@@ -6,9 +6,12 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
 	<meta name="keywords" content="Mock Studies" />
 	<title>Mytitle</title> 
  	<link rel="stylesheet" type="text/css" href="' . STATIC_DOMAIN . 'static/css/democss.css" />
+ 	<link rel="stylesheet" type="text/css" href="' . STATIC_DOMAIN . 'static/css/jquery-ui.css" />
+
 	<link rel="shortcut icon" href="favicon.ico" />
 	<script language="javascript" src="' . STATIC_DOMAIN . 'static/js/jquery.js" type="text/javascript"></script>
 	<script language="javascript" src="' . STATIC_DOMAIN . 'static/js/common.js" type="text/javascript"></script>
+	<script language="javascript" src="' . STATIC_DOMAIN . 'static/js/jquery-ui.min.js" type="text/javascript"></script>
  </head>
 <body>';
 

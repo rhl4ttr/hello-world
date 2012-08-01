@@ -4,7 +4,7 @@ class BatchController extends Controller
 {
 	
 	
-	public $layout = '/admin/content_layout';
+	public $layout = '/ajax_layout';
 	
 	
 	public function actionCreate()
@@ -85,7 +85,7 @@ class BatchController extends Controller
 		}
 	
 		$data->batch = $batch;
-		$this->render('edit', $data);
+		$this->renderPartial('edit', $data, false, true);
 	}
 
 	// -----------------------------------------------------------

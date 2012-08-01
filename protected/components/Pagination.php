@@ -153,21 +153,21 @@ class Pagination{
 	public function getLinks(){
 		if($this->total_pages==1)return;
 		
-		
-		echo '<div class="pager_wrapper"><ul class="mpager">';
+		$html = '';
+		$html .= '<div class="pager_wrapper"><ul class="mpager">';
 
 		//<li class="previous-off">«Previous</li>
 		for($i = $this->bounds["lower"]; $i <= $this->bounds["upper"]; $i++){
 			if($i==$this->current_page){
-				echo "<li class='active'>{$i}</li>";
+				$html .= "<li class='active'>{$i}</li>";
 			}else{
-				echo "<li><a href='?page={$i}'>{$i}</a></li>";
+				$html .= "<li><a href='?page={$i}'>{$i}</a></li>";
 			}
 		}
 		
 		
 		//<li class="next"><a href="?page=2">Next »</a></li>
-		echo '</ul></div>';
+		$html .= '</ul></div>';
 	}
 }	
 

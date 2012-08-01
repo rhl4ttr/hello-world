@@ -1,34 +1,63 @@
 $(document).ready(function(){
 	$(window).bind('hashchange', function(){
-		loadAjax();
+		loadAjax2();
 	});
-	loadAjax();
+	loadAjax2();
 });
  
-function loadAjax(){	
+function myformsubmit(){
 	
+	$.ajax({
+		  type: 'POST',
+		  url: this.action,
+		  data: $(this).serialize(),
+		  dataType:'json',
+		  beforeSend:function(){
+		    // this is where we append a loading image
+		    //$('#ajax-panel').html('<div class="loading"><img src="/images/loading.gif" alt="Loading..." /></div>');
+		  },
+		  success:function(jsonData){			
+			  ajaxResponseHandler.call(jsonData);	      
+		  },
+		  error:function(){
+		    // failed request; give feedback to user
+		   // $('#ajax-panel').html('<p class="error"><strong>Oops!</strong> Try that again in a few moments.</p>');
+		  }
+		});
+	
+	return false;
+}
+
+function loadAjax2(){
 	if(! window.location.hash){
 		return;
 	}
-
-	if(window.top!==window.self){
-		window.top.location.hash = window.location.hash;		
-		return;	
-	}
-	
 	var url = window.location.hash.replace('#', '');
-
-	var iframe = $("#contentFrame");
-	iframe.attr("src", url);
 	
-	iframe.load(function() {
-	    this.style.height =
-	    this.contentWindow.document.body.offsetHeight + 'px';
+	$.ajax({
+	  type: 'GET',
+	  url: url,
+	  data: {},
+	  dataType:'json',
+	  
+	  beforeSend:function(){
+	    // this is where we append a loading image
+	    //$('#ajax-panel').html('<div class="loading"><img src="/images/loading.gif" alt="Loading..." /></div>');
+	  },
+	  success:function(jsonData){
+		
+		  ajaxResponseHandler.call(jsonData);	      
+	  },
+	  error:function(){
+	    // failed request; give feedback to user
+	   // $('#ajax-panel').html('<p class="error"><strong>Oops!</strong> Try that again in a few moments.</p>');
+	  }
 	});
-
-	
 }
 
+function ajaxResponseHandler(){
+	eval(this.run);
+}
 
 function collectformdata(){
 	var dataurl = $("form").serialize();

@@ -3288,7 +3288,7 @@ class CController extends CBaseController
 		throw new CHttpException(400,Yii::t('yii','Your request is invalid.'));
 	}
 	public function processOutput($output)
-	{
+	{exit;
 		Yii::app()->getClientScript()->render($output);
 		// if using page caching, we should delay dynamic output replacement
 		if($this->_dynamicOutput!==null && $this->isCachingStackEmpty())

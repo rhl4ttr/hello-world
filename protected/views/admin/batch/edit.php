@@ -1,9 +1,22 @@
 <?php /* @var $batch Batch */ 
 
 $batch = $data->batch;
-?>
+
+$errors =array();
+$evalCode = '';
+
+
+$html = '';
+
+if(!Yii::app()->request->isPostRequest){
+	
+	
+	$evalCode = '$("#content").html(this.html);$("#batch_form").submit(myformsubmit);';
+	$evalCode .= 'toggleFormRows();$("#batch_start_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});$("#batch_end_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});';
+
+$html .= '
 <div id="flash_message"></div>
-<form name="batch_form" id="batch_form" method="post" action="/admin/batch/edit/id/<?php echo $batch->id; ?>">
+<form name="batch_form" id="batch_form" method="post" action="/admin/batch/edit/id/'. $batch->id .'">
 
 <table id="formTable" border="0" width="100%" cellspacing="0" cellpadding="0">
 	<tr>
@@ -19,51 +32,26 @@ $batch = $data->batch;
 
 	<tr>
 		<td><span class="setting_title">Start From</span></td>
-		<td><div><?php 
+		<td><div>';
+
 		
 		
-		
-$this->widget('zii.widgets.jui.CJuiDatePicker', 
-	array(
-		'name'=>'batch_start_date',
-		'value'=>(!empty($batch->startDate)?date('d-m-Y', $batch->startDate):''),
-		'options'=>array(
-						'showAnim'=>'fold',
-						'dateFormat'=>'dd-mm-yy',
-		      			),
-		'htmlOptions'=>array(
-						'style'=>'height:20px;'
-						)
-		)
-); 
+
+$html .= '<input type="text" value="'.(!empty($batch->startDate)?date('d-m-Y', $batch->startDate):'').'" name="batch_start_date" id="batch_start_date"/>';
 
 
-
-?></div></td>
+$html .= '</div></td>
 	</tr>
 	<tr>
 		<td><span class="setting_title">Completion Date</span></td>
-		<td><div><?php 
+		<td><div>';
+		 
 		
 		
-		
-$this->widget('zii.widgets.jui.CJuiDatePicker', 
-	array(
-		'name'=>'batch_end_date',
-		'value'=>(!empty($batch->endDate)?date('d-m-Y', $batch->endDate):''),
-		'options'=>array(
-						'showAnim'=>'fold',
-						'dateFormat'=>'dd-mm-yy',
-		      			),
-		'htmlOptions'=>array(
-						'style'=>'height:20px;'
-						)
-		)
-); 
+$html .= '<input type="text" value="'.(!empty($batch->endDate)?date('d-m-Y', $batch->endDate):'').'" name="batch_end_date" id="batch_end_date"/>';
 
 
-
-?></div></td>
+$html .= '</div></td>
 	</tr>
 	
 	<tr>
@@ -80,68 +68,60 @@ $this->widget('zii.widgets.jui.CJuiDatePicker',
  	</tr>
 </table>
 
-</form>
+</form>';
 
 
-
-<script type="text/javascript">
-<!--
-toggleFormRows();
-
-
-
-window.batchVars = ["batch_code", "batch_location", "batch_remarks"];
-
-<?php
+}
 
 
 
 
-
-$values = 
-array(
-
+$batchVars = array("batch_code", "batch_location", "batch_remarks");
+$values = array(
 	"batch_code"=>$batch->code,
 	"batch_start_date"=>date("d-m-Y", $batch->startDate),
 	"batch_end_date"=>date("d-m-Y", $batch->endDate),
 	"batch_location"=>$batch->location,
 	"batch_remarks"=>$batch->comments
-
-		
-
 );
 
-echo 'window.batchValues = '.json_encode($values).';';
 
-echo <<<EOD
 
-$(window.batchVars).each(function(){
-	$("#"+this).attr("value", window.batchValues[this]);
+$evalCode .= <<<EOD
+var cl = this;
+$(this.batchVars).each(function(){
+	$("#"+this).attr("value", cl.batchValues[this]);
 });
+
+$("#batch_form .field_error").remove();
+
+
 EOD;
 
 
 if(!empty($data->errors)){
 
 
-echo 'window.batchSubmitResults = '.json_encode($data->errors).';';
-
-echo <<<EOD
-
-
-				
-				
-$(window.batchSubmitResults).each(function(){
-$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
-});
-
-EOD;
+	$errors = $data->errors;
+	
+	$evalCode .= <<<EOD
+					
+	$(this.batchSubmitResults).each(function(){
+	$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
+	});
+	
+	
+	$("#flash_message").html("");
+	EOD;
 
 
 }elseif(Yii::app()->request->isPostRequest){
-	echo '$("#flash_message").html("Batch has been saved successfully.");';
+	$evalCode .= '$("#flash_message").html("Batch has been saved successfully.");';
 }
 
+
+
+
+echo CJSON::encode(array("html"=>$html, "batchValues"=>$values, "batchVars"=>$batchVars, "run"=>$evalCode, "batchSubmitResults"=>$errors))
+
 ?>
-//-->
-</script>
