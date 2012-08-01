@@ -11,8 +11,12 @@ $html = '';
 if(!Yii::app()->request->isPostRequest){
 	
 	
-	$evalCode = '$("#content").html(this.html);$("#batch_form").submit(myformsubmit);';
-	$evalCode .= 'toggleFormRows();$("#batch_start_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});$("#batch_end_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});';
+	$evalCode .= '
+			$("#content").html(this.html);
+			$("#batch_form").submit(myformsubmit);
+			toggleFormRows();
+			$("#batch_start_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});
+			$("#batch_end_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});';
 
 $html .= '
 <div id="flash_message"></div>
@@ -105,14 +109,17 @@ if(!empty($data->errors)){
 	$errors = $data->errors;
 	
 	$evalCode .= <<<EOD
+	
 					
 	$(this.batchSubmitResults).each(function(){
-	$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
+		$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
 	});
 	
 	
 	$("#flash_message").html("");
-	EOD;
+	
+	
+EOD;
 
 
 }elseif(Yii::app()->request->isPostRequest){
@@ -122,6 +129,6 @@ if(!empty($data->errors)){
 
 
 
-echo CJSON::encode(array("html"=>$html, "batchValues"=>$values, "batchVars"=>$batchVars, "run"=>$evalCode, "batchSubmitResults"=>$errors))
+echo CJSON::encode(array("html"=>$html, "batchValues"=>$values, "batchVars"=>$batchVars, "run"=>$evalCode, "batchSubmitResults"=>$errors));
 
 ?>
