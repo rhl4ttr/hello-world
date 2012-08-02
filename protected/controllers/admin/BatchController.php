@@ -92,7 +92,7 @@ class BatchController extends Controller
 				
 			if(empty($errors)){	
 				
-				$batch->organizationId = Yii::app()->user->getOrgId();	
+				$batch->organizationId = Yii::app()->user->getOrgId();/*this is important to avoid one moderator to edit/delete other org batches*/
 				$batch->save();
 			}
 	
@@ -111,18 +111,21 @@ class BatchController extends Controller
 	
 	public function actionDelete()
 	{
-		
-		$batchIds = (array)$_POST["batchIds"];
-		
-		$batch = new Batch();
-		$batch->organizationId = Yii::app()->user->getOrgId();/*this is important to avoid one moderator to edit/delete other org batches*/
-		
-		foreach($batchIds as $bId){
-			$batch->id = $bId;
-			$batch->delete();
+		if(array_key_exists("batchIds", $_POST)){
+			$batchIds = (array)$_POST["batchIds"];
+			
+			$batch = new Batch();
+			$batch->organizationId = Yii::app()->user->getOrgId();/*this is important to avoid one moderator to edit/delete other org batches*/
+			
+			foreach($batchIds as $bId){
+				$batch->id = $bId;
+				$batch->delete();
+			}
+			
+			$this->render('delete');
+		}else{
+			Yii::app()->end();
 		}
-		
-		$this->render('delete');
 	}
 	
 	

@@ -1249,3 +1249,58 @@ Stack trace:
 REQUEST_URI=/static/css/images/ui-bg_glass_75_dadada_1x400.png
 HTTP_REFERER=http://127.0.0.1/static/css/jquery-ui.css
 ---
+2012/08/02 22:46:19 [error] [php] Undefined index: batchIds (/home/admin/hello-world/protected/controllers/admin/BatchController.php:115)
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/admin/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/delete
+in /home/admin/hello-world/protected/controllers/admin/BatchController.php (115)
+in /home/admin/hello-world/index.php (20)
+2012/08/02 22:46:19 [error] [php] Undefined index: batchIds (/home/admin/hello-world/protected/controllers/admin/BatchController.php:115)
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/admin/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/delete
+in /home/admin/hello-world/protected/controllers/admin/BatchController.php (115)
+in /home/admin/hello-world/index.php (20)
+2012/08/02 22:46:19 [error] [php] Undefined index: batchIds (/home/admin/hello-world/protected/controllers/admin/BatchController.php:115)
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/admin/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/delete
+in /home/admin/hello-world/protected/controllers/admin/BatchController.php (115)
+in /home/admin/hello-world/index.php (20)
+2012/08/02 22:46:20 [error] [php] Undefined index: batchIds (/home/admin/hello-world/protected/controllers/admin/BatchController.php:115)
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/admin/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/delete
+in /home/admin/hello-world/protected/controllers/admin/BatchController.php (115)
+in /home/admin/hello-world/index.php (20)
+2012/08/02 22:46:24 [error] [php] Undefined index: batchIds (/home/admin/hello-world/protected/controllers/admin/BatchController.php:115)
+Stack trace:
+#0 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(287): BatchController->runAction()
+#1 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CController.php(266): BatchController->runActionWithFilters()
+#2 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): BatchController->run()
+#3 /home/admin/hello-world/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/admin/hello-world/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/admin/hello-world/index.php(20): CWebApplication->run()
+REQUEST_URI=/admin/batch/delete
+in /home/admin/hello-world/protected/controllers/admin/BatchController.php (115)
+in /home/admin/hello-world/index.php (20)
