@@ -1,14 +1,36 @@
 <?php /* @var $batch Batch */ 
+$evalCode = '$("#flash_message").html("");$("#batch_form .field_error").remove();';
 
 $batch = $data->batch;
+$errors = $data->errors;
+$batchVars = array("batch_code", "batch_location", "batch_remarks");
+$values = array(
+		"batch_code"=>$batch->code,
+		"batch_start_date"=>date("d-m-Y", $batch->startDate),
+		"batch_end_date"=>date("d-m-Y", $batch->endDate),
+		"batch_location"=>$batch->location,
+		"batch_remarks"=>$batch->comments
+);
+$success = false;
 
-$errors =array();
-$evalCode = '';
+$isPost = Yii::app()->request->isPostRequest;
+
+
+
+
+
+if($isPost && empty($data->errors)){
+	$success = true;
+	$batchValues = array();
+}
+
+
+$showForm = !$isPost;
 
 
 $html = '';
 
-if(!Yii::app()->request->isPostRequest){
+if($showForm){
 	
 	
 	$evalCode .= '
@@ -77,53 +99,26 @@ $html .= '</div></td>
 
 }
 
-
-
-
-$batchVars = array("batch_code", "batch_location", "batch_remarks");
-$values = array(
-	"batch_code"=>$batch->code,
-	"batch_start_date"=>date("d-m-Y", $batch->startDate),
-	"batch_end_date"=>date("d-m-Y", $batch->endDate),
-	"batch_location"=>$batch->location,
-	"batch_remarks"=>$batch->comments
-);
-
-
-
-$evalCode .= <<<EOD
-var cl = this;
+$evalCode .= '
+		var t = this;
 $(this.batchVars).each(function(){
-	$("#"+this).attr("value", cl.batchValues[this]);
-});
-
-$("#batch_form .field_error").remove();
+	$("#"+this).attr("value", t.batchValues[this]);
+});';
 
 
-EOD;
 
-
-if(!empty($data->errors)){
-
-
-	$errors = $data->errors;
-	
+if($success){
+	$evalCode .= '$("#flash_message").html("Batch has been saved successfully.");';
+}else{
 	$evalCode .= <<<EOD
 	
-					
-	$(this.batchSubmitResults).each(function(){
-		$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
-	});
-	
-	
-	$("#flash_message").html("");
+		
+$(this.batchSubmitResults).each(function(){
+	$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
+});
 	
 	
 EOD;
-
-
-}elseif(Yii::app()->request->isPostRequest){
-	$evalCode .= '$("#flash_message").html("Batch has been saved successfully.");';
 }
 
 

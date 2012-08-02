@@ -1,4 +1,41 @@
-<form name="batch_form" id="batch_form" method="post" action="/admin/batch/create">
+<?php 
+
+$evalCode = '$("#flash_message").html("");$("#batch_form .field_error").remove();';
+$html = '';
+$batchVars = array("batch_code", "batch_start_date", "batch_end_date", "batch_location", "batch_remarks");
+$batchValues = array();
+$errors = $data->errors;
+$isPost = Yii::app()->request->isPostRequest;
+$success = false;
+
+
+
+
+
+if($isPost && !empty($errors)){	
+	$batchValues = $_POST;
+}elseif($isPost){
+	$success = true;
+	$batchValues = array();	
+}
+
+
+
+$showForm = $success || !$isPost;
+
+if($showForm){
+	
+$evalCode .= '
+		$("#content").html(this.html);
+		toggleFormRows();
+		$("#batch_form").submit(myformsubmit);
+		$("#batch_start_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});
+		$("#batch_end_date").datepicker({showAnim:"fold",dateFormat:"dd-mm-yy"});';
+	
+$html .= '
+		<div id="flash_message"></div>
+		
+		<form name="batch_form" id="batch_form" method="post" action="/admin/batch/create">
  
 <table id="formTable" border="0" width="100%" cellspacing="0" cellpadding="0">
 	<tr>
@@ -15,31 +52,11 @@
 	<tr>
 		<td><span class="setting_title">Start From</span></td>
 		
-		<td><div><?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-   'name'=>'batch_start_date',
-   // additional javascript options for the date picker plugin
-      'options'=>array(
-            'showAnim'=>'fold',
-'dateFormat'=>'dd-mm-yy',
-      ),
-        'htmlOptions'=>array(
-                'style'=>'height:20px;'
-        ),
-)); ?></div></td>
+		<td><div><input type="text" value="" name="batch_start_date" id="batch_start_date"/></div></td>
 	</tr>
 	<tr>
 		<td><span class="setting_title">Completion Date</span></td>
-		<td><div><?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-   'name'=>'batch_end_date',
-   // additional javascript options for the date picker plugin
-      'options'=>array(
-            'showAnim'=>'fold',
-'dateFormat'=>'dd-mm-yy',
-      ),
-        'htmlOptions'=>array(
-                'style'=>'height:20px;'
-        ),
-)); ?></div></td>
+		<td><div><input type="text" value="" name="batch_end_date" id="batch_end_date"/></div></td>
 	</tr>
 	
 	<tr>
@@ -65,44 +82,27 @@
 
 
 
-</table>
-
-<script type="text/javascript">
-<!--
-toggleFormRows();
-
-
-
-window.batchVars = ["batch_code", "batch_start_date", "batch_end_date", "batch_location", "batch_remarks"];
-
-<?php 
-
-echo 'window.batchValues = '.json_encode($_POST).';';
-
-
-
-
-if(!empty($data->errors)){
-
-
-echo 'window.batchSubmitResults = '.json_encode($data->errors).';';
-
-echo <<<EOD
-
-$(window.batchVars).each(function(){
-$("#"+this).attr("value", window.batchValues[this]);
-});
-				
-				
-$(window.batchSubmitResults).each(function(){
-$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
-});
-
-EOD;
-
-
+</table>';
 }
 
+if($success){
+	$evalCode .= '$("#flash_message").html("Batch has been created successfully.");';
+}else{
+	$evalCode .= <<<EOD
+		
+		
+			$(this.batchSubmitResults).each(function(){
+	$("#"+this.el).parent().append("<div class='field_error'>"+this.msg+"</div>");
+});
+EOD;
+}
+$evalCode .= '
+		var t = this;
+$(this.batchVars).each(function(){
+	$("#"+this).attr("value", t.batchValues[this]);
+});';
+
+
+echo CJSON::encode(array( "html"=>$html, "batchValues"=>$batchValues, "batchVars"=>$batchVars, "run"=>$evalCode, "batchSubmitResults"=>$errors));
+
 ?>
-//-->
-</script>

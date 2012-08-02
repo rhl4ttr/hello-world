@@ -95,6 +95,11 @@ class MockData{
 		$sql .= ' WHERE '. $this->pKey .'=:pkey';
 		
 		
+		if(property_exists($this, "organizationId")){
+			$sql .= ' AND org_id = '. $this->organizationId;
+		}
+		
+		
 		$conn = DbConnection::getInstance()->getConnection($this->databaseName, DbConnection::WRITE_SERVER);
 		
 		$prepped = $conn->prepare($sql);
@@ -142,6 +147,10 @@ class MockData{
 		$pkeyColumn = $this->mappings[$this->pKey];
 	
 		$sql = 'DELETE FROM '. $this->tableName.' WHERE '.$pkeyColumn .' = :pkey';
+
+		if(property_exists($this, "organizationId")){
+			$sql .= ' AND org_id = '. $this->organizationId;
+		}
 	
 		$conn = DbConnection::getInstance()->getConnection($this->databaseName, DbConnection::WRITE_SERVER);
 	
@@ -157,11 +166,8 @@ class MockData{
 	
 	public function find($options = array()){	
 		
+
 		$condition = ' WHERE ';
-		if(array_key_exists("condition", $options)){
-			$condition .= $this->getClause($options["condition"]);
-		}
-		
 		
 		$set = array();
 		foreach ($this->mappings as $modelVar => $modelColumn){
@@ -196,71 +202,46 @@ class MockData{
 			$sort = ' ORDER BY '. key($options["sort"]). ' '.current($options["sort"]);			
 		}		
 		
+
 		$sql = 'SELECT * FROM '.$this->tableName. $condition.$limit.$sort;
 		
-		$conn = DbConnection::getInstance()->getConnection($this->databaseName, DbConnection::WRITE_SERVER);
+		$conn = DbConnection::getInstance()->getConnection($this->databaseName, DbConnection::READ_SERVER);
 		
 		$prepped = $conn->prepare($sql);
-		
-		/*fill values*/
-		if(array_key_exists("values", $options)){
-			foreach($options["values"] as $key => $value){
-				$prepped->bindParam($key, $options["values"][$key]);
-			}
-		}
 		
 		
 		foreach($params as $modelVar => $modelColumn){
 			$prepped->bindParam(":{$modelColumn}", $this->$modelVar);
 		}
 		
-		$prepped->execute();
+		$prepped->execute();		
 		
 		
-		$objArray = array();
+		$objArray = $this->getObjects($prepped);
 		
+		return $objArray;
+	}
+	
+	
+	public function getObjects($prepped){
 		$className = get_class($this);
 		
+		$objArray  = array();
+		
 		while($row = $prepped->fetch(PDO::FETCH_ASSOC)){
+			
 			$obj = new $className();
-			
+				
 			$mapping = $obj->getMapping();
-			
+				
 			foreach($mapping as $modelVar => $modelColumn){
 				$obj->{$modelVar} = $row[$modelColumn];
 			}
-			
+				
 			$objArray[] = $obj;
 		}
 		
 		return $objArray;
 	}
-	
-
-	private function getClause($options = array(), $op = null){
-		$sql = '';
-		
-		$content = array();
-		foreach($options as $key => $value){
-			if(is_array($value)){		
-				$content[] = $this->getClause($value, $key);
-			}else{
-				$content[] = "{$key} = {$value}";				
-			}
-			
-		}
-		
-		if(!empty($op)){
-			$sql = join(" ". $op." ", $content);
-		}else{
-			$sql = array_shift($content);
-		}
-		
-		return $sql;
-		
-	}
-
-	
-	
 	
 }

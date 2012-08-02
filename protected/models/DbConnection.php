@@ -70,7 +70,7 @@ class DbConnection{
 					READ_MOCK_USER, 
 					READ_MOCK_PASSWORD, 
 					array(
-							
+							PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 						)
 					);
 				

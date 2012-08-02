@@ -13,6 +13,9 @@ class BatchController extends Controller
 		 * http://www.yiiframework.com/doc/api/1.1/CHttpRequest
 		 * 
 		 * */
+		$data = new stdClass();
+		$data->errors = array();
+		
 		if(Yii::app()->request->isPostRequest){			
 			$batch = new Batch();			
 			$errors = BatchHelper::validateBatch($batch);
@@ -23,14 +26,14 @@ class BatchController extends Controller
 				$batch->save();
 			}
 			
-			$data = new stdClass();			
-			$data->errors = $errors;			
-			$this->render('create', $data);			
 			
-		}else{
+			$data->errors = $errors;		
 			
-			$this->render('create');
+			
 		}
+			
+		$this->render('create', $data);
+		
 	}
 	
 	
@@ -39,16 +42,32 @@ class BatchController extends Controller
 		$data = new stdClass();
 		
 		$batch = new Batch();
+		
 		$batch->organizationId =  Yii::app()->user->getOrgId();
 		
-		$orgBatchCount = $batch->getBatchCount();
-		$data->pager = new Pagination(10, 10, Yii::app()->request->getQuery("page", 1), $orgBatchCount, true);
+		$searchOptions = array();
+		$searchField = Yii::app()->request->getQuery("search", "");
+		if(!empty($searchField)){
+			$searchOptions["code"] = $searchField;
+		}
+		
+		$pager = new Pagination(10, 10, Yii::app()->request->getQuery("page", 1), 100000, false);		
+		
+		$searchOptions["start"] = $pager->getOffset();
+		
+		$searchOptions["rows"] = 10;
+		
+		$batchData = $batch->getBatches($searchOptions);
 		
 		
-		$batches = $batch->find(array("rows"=>10, "start"=>$data->pager->getOffset()));
+		$pager->setTotalItems($batchData["count"], true);
 		
 		
-		$data->batches = $batches;
+		
+		$data->pager = $pager;
+		
+		
+		$data->batches = $batchData["items"];
 		
 		
 		$this->render('list', $data);
@@ -63,6 +82,7 @@ class BatchController extends Controller
 		
 		
 		$data  =new stdClass();
+		$data->errors = array();
 				
 		if(Yii::app()->request->isPostRequest){
 			
@@ -85,34 +105,25 @@ class BatchController extends Controller
 		}
 	
 		$data->batch = $batch;
-		$this->renderPartial('edit', $data, false, true);
+		$this->render('edit', $data);
 	}
-
-	// -----------------------------------------------------------
-	// Uncomment the following methods and override them if needed
-	/*
-	public function filters()
+	
+	
+	public function actionDelete()
 	{
-		// return the filter configuration for this controller, e.g.:
-		return array(
-			'inlineFilterName',
-			array(
-				'class'=>'path.to.FilterClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
+		
+		$batchIds = (array)$_POST["batchIds"];
+		
+		$batch = new Batch();
+		$batch->organizationId = Yii::app()->user->getOrgId();/*this is important to avoid one moderator to edit/delete other org batches*/
+		
+		foreach($batchIds as $bId){
+			$batch->id = $bId;
+			$batch->delete();
+		}
+		
+		$this->render('delete');
 	}
-
-	public function actions()
-	{
-		// return external action classes, e.g.:
-		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-	*/
+	
+	
 }

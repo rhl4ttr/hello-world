@@ -410,7 +410,7 @@ line-height:15px;
 
 .pager_wrapper{
 	margin-left:10px;
-width:100%;
+
 margin-top: 10px;
 }
 /*pagination*/
@@ -458,4 +458,7 @@ text-decoration:none;
 }
 .mpager a:hover{
 border:solid 1px #0e509e
+}
+.contentOuter{
+	background-color: #ffffff;
 }

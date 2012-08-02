@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	$(window).bind('hashchange', function(){
-		loadAjax2();
+		loadAjax2(window.location.hash);
 	});
-	loadAjax2();
+	loadAjax2(window.location.hash);
 });
  
 function myformsubmit(){
@@ -28,11 +28,9 @@ function myformsubmit(){
 	return false;
 }
 
-function loadAjax2(){
-	if(! window.location.hash){
-		return;
-	}
-	var url = window.location.hash.replace('#', '');
+function loadAjax2(lurl){
+
+	var url = lurl.replace('#', '');
 	
 	$.ajax({
 	  type: 'GET',
@@ -87,4 +85,11 @@ function toggleFormRows(){
 			$(this).addClass("normal_white");
 		});
 	});
+}
+function loadme(me){
+	if(typeof me == "object"){
+		window.location.hash = me.getAttribute("maction");
+	}else{
+		window.location.hash = me;
+	}
 }

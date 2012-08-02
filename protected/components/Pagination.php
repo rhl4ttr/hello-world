@@ -27,9 +27,9 @@ class Pagination{
 		$this->per_page=(int)$per_page;
 		$this->per_page_link=(int)$per_page_link;
 		$this->total_pages=ceil($total_items/$per_page);
-		if($show_all_links===true){
+		/*if($show_all_links===true){
 			$this->per_page_link=$this->total_pages;
-		}
+		}*/
 		$whichPage=(int)$current_page;
 		if($whichPage==0){
 			$whichPage=1;
@@ -74,6 +74,7 @@ class Pagination{
 			}
 		}
 		$this->total_pages=ceil($this->total_items/$this->per_page);
+		$this->get_page_links_bounds();
 	}
 	
 	public function getTotalItems(){
@@ -150,24 +151,26 @@ class Pagination{
 	}
 	
 	
-	public function getLinks(){
-		if($this->total_pages==1)return;
+	public function getLinks($context){
+		if($this->total_pages<=1 || $this->total_items<=0)return "";
 		
 		$html = '';
-		$html .= '<div class="pager_wrapper"><ul class="mpager">';
+		$html .= '<div class="mbox pager_wrapper"><ul class="mpager">';
 
 		//<li class="previous-off">«Previous</li>
 		for($i = $this->bounds["lower"]; $i <= $this->bounds["upper"]; $i++){
 			if($i==$this->current_page){
 				$html .= "<li class='active'>{$i}</li>";
 			}else{
-				$html .= "<li><a href='?page={$i}'>{$i}</a></li>";
+				$html .= "<li><a href='javascript:void(0)' onclick='loadme(this);' maction='/{$context}/page/{$i}'>{$i}</a></li>";
 			}
 		}
 		
 		
 		//<li class="next"><a href="?page=2">Next »</a></li>
 		$html .= '</ul></div>';
+		
+		return $html;
 	}
 }	
 

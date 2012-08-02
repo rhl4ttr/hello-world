@@ -9,7 +9,7 @@
  
 echo $content;
 
- echo '<iframe src="about:blank" frameborder="0" id="contentFrame" name="contentFrame" style="width:100%" scrolling="no"></iframe>';
+
 echo '</div>';
 echo '</div>';
 

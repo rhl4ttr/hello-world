@@ -36,5 +36,10 @@ class Utils {
 		return preg_match($pattern, $email)!==0;
 	
 	}
+	
+	
+	public static function getBatchLink(){
+		
+	}
 
 }
